@@ -2,7 +2,7 @@
 - Reads the content of `file1.csv` and `file2.csv`.
 - Calculates the `Required Sum` of the `Score` field from `file1.csv`.
 - Iterates through the rows of `file2.csv`, accumulating rows until the sum of their `Score` fields matches the `Required Sum`.
-- Saves the selected rows to `results.csv` as a final output.
+- Saves the selected rows to `results.csv` as final output.
 
 test it out by
 ```
