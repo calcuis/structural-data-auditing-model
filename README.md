@@ -18,6 +18,14 @@ test it out by
 ```
 py model5.py
 ```
+#### Model-9b (unstable loop)
+- Loop until the `current_sum` reach the `required_sum`
+- Reference model only right away
+
+test it out by
+```
+py model9b.py
+```
 #### Coexisting record detector
 - Compare each record of `file1.csv` and `file2.csv`
 - Coexist field is created using a lambda function that assigns 1 if a record exists in both files, and null if not
