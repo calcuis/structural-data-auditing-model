@@ -20,7 +20,7 @@ py model5.py
 ```
 #### Model-9b (unstable loop)
 - Loop until the `current_sum` reach the `required_sum`
-- Reference model only right away
+- Reference model only right away (not for production)
 
 test it out by
 ```
