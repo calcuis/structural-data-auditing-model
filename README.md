@@ -28,7 +28,7 @@ py model9b.py
 ```
 #### Coexisting record detector
 - Compare each record of `file1.csv` and `file2.csv`
-- Coexist field is created using a lambda function that assigns 1 if a record exists in both files, and null if not
+- Coexist column is created using a lambda function that assigns 1 to each field if a record exists in both files, and null if not
 - Save the output as `results.csv`
 
 test it out by
