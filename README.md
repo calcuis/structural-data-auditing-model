@@ -35,3 +35,11 @@ test it out by
 ```
 py detector.py
 ```
+#### Unmatched record detector
+- Scan all csv files within the current directory
+- List out those unmatched record(s)
+
+test it out by
+```
+py unmatched.py
+```
